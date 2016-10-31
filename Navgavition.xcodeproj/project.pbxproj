@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91B01491DBFB92C0008ADFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E91B01481DBFB92C0008ADFA /* main.m */; };
+		E91B014C1DBFB92C0008ADFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E91B014B1DBFB92C0008ADFA /* AppDelegate.m */; };
+		E91B014F1DBFB92C0008ADFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91B014E1DBFB92C0008ADFA /* ViewController.m */; };
+		E91B01521DBFB92D0008ADFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91B01501DBFB92D0008ADFA /* Main.storyboard */; };
+		E91B01541DBFB92D0008ADFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91B01531DBFB92D0008ADFA /* Assets.xcassets */; };
+		E91B01571DBFB92D0008ADFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91B01551DBFB92D0008ADFA /* LaunchScreen.storyboard */; };
+		E91B01621DBFB92D0008ADFA /* NavgavitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91B01611DBFB92D0008ADFA /* NavgavitionTests.m */; };
+		E91B016D1DBFB92D0008ADFA /* NavgavitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91B016C1DBFB92D0008ADFA /* NavgavitionUITests.m */; };
+		E91B017C1DBFB9650008ADFA /* JHNav.m in Sources */ = {isa = PBXBuildFile; fileRef = E91B017B1DBFB9650008ADFA /* JHNav.m */; };
+		E91B017F1DBFBD3A0008ADFA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91B017E1DBFBD3A0008ADFA /* SecondViewController.m */; };
+		E977D2EA1DC527A3009A9DE8 /* modle.m in Sources */ = {isa = PBXBuildFile; fileRef = E977D2E91DC527A3009A9DE8 /* modle.m */; };
+		E9A56F341DC01AD7006E7910 /* BBC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9A56F331DC01AD7006E7910 /* BBC.mp3 */; };
+		E9A7FCF61DC0E99900E38D33 /* 2015.6.1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9A7FCF51DC0E99900E38D33 /* 2015.6.1.mp3 */; };
+		E9A7FCF91DC0EA2800E38D33 /* JHMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A7FCF81DC0EA2800E38D33 /* JHMusic.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E91B015E1DBFB92D0008ADFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91B013C1DBFB92C0008ADFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91B01431DBFB92C0008ADFA;
+			remoteInfo = Navgavition;
+		};
+		E91B01691DBFB92D0008ADFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91B013C1DBFB92C0008ADFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91B01431DBFB92C0008ADFA;
+			remoteInfo = Navgavition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E91B01441DBFB92C0008ADFA /* Navgavition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navgavition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91B01481DBFB92C0008ADFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E91B014A1DBFB92C0008ADFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E91B014B1DBFB92C0008ADFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E91B014D1DBFB92C0008ADFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E91B014E1DBFB92C0008ADFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E91B01511DBFB92D0008ADFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E91B01531DBFB92D0008ADFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E91B01561DBFB92D0008ADFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E91B01581DBFB92D0008ADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91B015D1DBFB92D0008ADFA /* NavgavitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavgavitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91B01611DBFB92D0008ADFA /* NavgavitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavgavitionTests.m; sourceTree = "<group>"; };
+		E91B01631DBFB92D0008ADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91B01681DBFB92D0008ADFA /* NavgavitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavgavitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91B016C1DBFB92D0008ADFA /* NavgavitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavgavitionUITests.m; sourceTree = "<group>"; };
+		E91B016E1DBFB92D0008ADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91B017A1DBFB9650008ADFA /* JHNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNav.h; sourceTree = "<group>"; };
+		E91B017B1DBFB9650008ADFA /* JHNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNav.m; sourceTree = "<group>"; };
+		E91B017D1DBFBD3A0008ADFA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E91B017E1DBFBD3A0008ADFA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E977D2E81DC527A3009A9DE8 /* modle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modle.h; sourceTree = "<group>"; };
+		E977D2E91DC527A3009A9DE8 /* modle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modle.m; sourceTree = "<group>"; };
+		E9A56F331DC01AD7006E7910 /* BBC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BBC.mp3; sourceTree = "<group>"; };
+		E9A7FCF51DC0E99900E38D33 /* 2015.6.1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 2015.6.1.mp3; path = ../2015.6.1.mp3; sourceTree = "<group>"; };
+		E9A7FCF71DC0EA2800E38D33 /* JHMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMusic.h; sourceTree = "<group>"; };
+		E9A7FCF81DC0EA2800E38D33 /* JHMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMusic.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91B01411DBFB92C0008ADFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91B015A1DBFB92D0008ADFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91B01651DBFB92D0008ADFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E91B013B1DBFB92C0008ADFA = {
+			isa = PBXGroup;
+			children = (
+				E91B01461DBFB92C0008ADFA /* Navgavition */,
+				E91B01601DBFB92D0008ADFA /* NavgavitionTests */,
+				E91B016B1DBFB92D0008ADFA /* NavgavitionUITests */,
+				E91B01451DBFB92C0008ADFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E91B01451DBFB92C0008ADFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91B01441DBFB92C0008ADFA /* Navgavition.app */,
+				E91B015D1DBFB92D0008ADFA /* NavgavitionTests.xctest */,
+				E91B01681DBFB92D0008ADFA /* NavgavitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E91B01461DBFB92C0008ADFA /* Navgavition */ = {
+			isa = PBXGroup;
+			children = (
+				E91B017A1DBFB9650008ADFA /* JHNav.h */,
+				E91B017B1DBFB9650008ADFA /* JHNav.m */,
+				E9A7FCF71DC0EA2800E38D33 /* JHMusic.h */,
+				E9A7FCF81DC0EA2800E38D33 /* JHMusic.m */,
+				E91B014D1DBFB92C0008ADFA /* ViewController.h */,
+				E91B014E1DBFB92C0008ADFA /* ViewController.m */,
+				E977D2E81DC527A3009A9DE8 /* modle.h */,
+				E977D2E91DC527A3009A9DE8 /* modle.m */,
+				E91B017D1DBFBD3A0008ADFA /* SecondViewController.h */,
+				E91B017E1DBFBD3A0008ADFA /* SecondViewController.m */,
+				E91B01471DBFB92C0008ADFA /* Supporting Files */,
+			);
+			path = Navgavition;
+			sourceTree = "<group>";
+		};
+		E91B01471DBFB92C0008ADFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7FCF51DC0E99900E38D33 /* 2015.6.1.mp3 */,
+				E9A56F331DC01AD7006E7910 /* BBC.mp3 */,
+				E91B01501DBFB92D0008ADFA /* Main.storyboard */,
+				E91B01531DBFB92D0008ADFA /* Assets.xcassets */,
+				E91B01551DBFB92D0008ADFA /* LaunchScreen.storyboard */,
+				E91B01581DBFB92D0008ADFA /* Info.plist */,
+				E91B014A1DBFB92C0008ADFA /* AppDelegate.h */,
+				E91B014B1DBFB92C0008ADFA /* AppDelegate.m */,
+				E91B01481DBFB92C0008ADFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E91B01601DBFB92D0008ADFA /* NavgavitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				E91B01611DBFB92D0008ADFA /* NavgavitionTests.m */,
+				E91B01631DBFB92D0008ADFA /* Info.plist */,
+			);
+			path = NavgavitionTests;
+			sourceTree = "<group>";
+		};
+		E91B016B1DBFB92D0008ADFA /* NavgavitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E91B016C1DBFB92D0008ADFA /* NavgavitionUITests.m */,
+				E91B016E1DBFB92D0008ADFA /* Info.plist */,
+			);
+			path = NavgavitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E91B01431DBFB92C0008ADFA /* Navgavition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91B01711DBFB92D0008ADFA /* Build configuration list for PBXNativeTarget "Navgavition" */;
+			buildPhases = (
+				E91B01401DBFB92C0008ADFA /* Sources */,
+				E91B01411DBFB92C0008ADFA /* Frameworks */,
+				E91B01421DBFB92C0008ADFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Navgavition;
+			productName = Navgavition;
+			productReference = E91B01441DBFB92C0008ADFA /* Navgavition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E91B015C1DBFB92D0008ADFA /* NavgavitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91B01741DBFB92D0008ADFA /* Build configuration list for PBXNativeTarget "NavgavitionTests" */;
+			buildPhases = (
+				E91B01591DBFB92D0008ADFA /* Sources */,
+				E91B015A1DBFB92D0008ADFA /* Frameworks */,
+				E91B015B1DBFB92D0008ADFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91B015F1DBFB92D0008ADFA /* PBXTargetDependency */,
+			);
+			name = NavgavitionTests;
+			productName = NavgavitionTests;
+			productReference = E91B015D1DBFB92D0008ADFA /* NavgavitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E91B01671DBFB92D0008ADFA /* NavgavitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91B01771DBFB92D0008ADFA /* Build configuration list for PBXNativeTarget "NavgavitionUITests" */;
+			buildPhases = (
+				E91B01641DBFB92D0008ADFA /* Sources */,
+				E91B01651DBFB92D0008ADFA /* Frameworks */,
+				E91B01661DBFB92D0008ADFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91B016A1DBFB92D0008ADFA /* PBXTargetDependency */,
+			);
+			name = NavgavitionUITests;
+			productName = NavgavitionUITests;
+			productReference = E91B01681DBFB92D0008ADFA /* NavgavitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91B013C1DBFB92C0008ADFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "荆传贺";
+				TargetAttributes = {
+					E91B01431DBFB92C0008ADFA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6H9JEH5VP5;
+					};
+					E91B015C1DBFB92D0008ADFA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6H9JEH5VP5;
+						TestTargetID = E91B01431DBFB92C0008ADFA;
+					};
+					E91B01671DBFB92D0008ADFA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6H9JEH5VP5;
+						TestTargetID = E91B01431DBFB92C0008ADFA;
+					};
+				};
+			};
+			buildConfigurationList = E91B013F1DBFB92C0008ADFA /* Build configuration list for PBXProject "Navgavition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E91B013B1DBFB92C0008ADFA;
+			productRefGroup = E91B01451DBFB92C0008ADFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E91B01431DBFB92C0008ADFA /* Navgavition */,
+				E91B015C1DBFB92D0008ADFA /* NavgavitionTests */,
+				E91B01671DBFB92D0008ADFA /* NavgavitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91B01421DBFB92C0008ADFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A56F341DC01AD7006E7910 /* BBC.mp3 in Resources */,
+				E91B01571DBFB92D0008ADFA /* LaunchScreen.storyboard in Resources */,
+				E91B01541DBFB92D0008ADFA /* Assets.xcassets in Resources */,
+				E9A7FCF61DC0E99900E38D33 /* 2015.6.1.mp3 in Resources */,
+				E91B01521DBFB92D0008ADFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91B015B1DBFB92D0008ADFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91B01661DBFB92D0008ADFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91B01401DBFB92C0008ADFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91B017F1DBFBD3A0008ADFA /* SecondViewController.m in Sources */,
+				E91B014F1DBFB92C0008ADFA /* ViewController.m in Sources */,
+				E977D2EA1DC527A3009A9DE8 /* modle.m in Sources */,
+				E91B017C1DBFB9650008ADFA /* JHNav.m in Sources */,
+				E91B014C1DBFB92C0008ADFA /* AppDelegate.m in Sources */,
+				E91B01491DBFB92C0008ADFA /* main.m in Sources */,
+				E9A7FCF91DC0EA2800E38D33 /* JHMusic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91B01591DBFB92D0008ADFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91B01621DBFB92D0008ADFA /* NavgavitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91B01641DBFB92D0008ADFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91B016D1DBFB92D0008ADFA /* NavgavitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E91B015F1DBFB92D0008ADFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91B01431DBFB92C0008ADFA /* Navgavition */;
+			targetProxy = E91B015E1DBFB92D0008ADFA /* PBXContainerItemProxy */;
+		};
+		E91B016A1DBFB92D0008ADFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91B01431DBFB92C0008ADFA /* Navgavition */;
+			targetProxy = E91B01691DBFB92D0008ADFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E91B01501DBFB92D0008ADFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91B01511DBFB92D0008ADFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E91B01551DBFB92D0008ADFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91B01561DBFB92D0008ADFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E91B016F1DBFB92D0008ADFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E91B01701DBFB92D0008ADFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E91B01721DBFB92D0008ADFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Navgavition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCH.Navgavition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E91B01731DBFB92D0008ADFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Navgavition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCH.Navgavition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E91B01751DBFB92D0008ADFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NavgavitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCH.NavgavitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navgavition.app/Navgavition";
+			};
+			name = Debug;
+		};
+		E91B01761DBFB92D0008ADFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NavgavitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCH.NavgavitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navgavition.app/Navgavition";
+			};
+			name = Release;
+		};
+		E91B01781DBFB92D0008ADFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NavgavitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCH.NavgavitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Navgavition;
+			};
+			name = Debug;
+		};
+		E91B01791DBFB92D0008ADFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NavgavitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCH.NavgavitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Navgavition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91B013F1DBFB92C0008ADFA /* Build configuration list for PBXProject "Navgavition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91B016F1DBFB92D0008ADFA /* Debug */,
+				E91B01701DBFB92D0008ADFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91B01711DBFB92D0008ADFA /* Build configuration list for PBXNativeTarget "Navgavition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91B01721DBFB92D0008ADFA /* Debug */,
+				E91B01731DBFB92D0008ADFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91B01741DBFB92D0008ADFA /* Build configuration list for PBXNativeTarget "NavgavitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91B01751DBFB92D0008ADFA /* Debug */,
+				E91B01761DBFB92D0008ADFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91B01771DBFB92D0008ADFA /* Build configuration list for PBXNativeTarget "NavgavitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91B01781DBFB92D0008ADFA /* Debug */,
+				E91B01791DBFB92D0008ADFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E91B013C1DBFB92C0008ADFA /* Project object */;
+}
